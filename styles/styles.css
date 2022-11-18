@@ -33,6 +33,13 @@ ul {
     font-size: 30px;
 }
 
+li:hover {
+    cursor: pointer;
+    color: #FFA185;
+    transition: 0.2s ease-in;
+}
+
+
 header div {
     display: flex;
     justify-content: space-around;
