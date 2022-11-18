@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    background-color: #129799;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 15px 0 15px 0;
+}
+
+h1 {
+    font-size: 75px;
+}
+
+header nav:first-of-type {
+    width: 60vh;
+}
+
+header nav:last-of-type {
+    width: 90vh;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+header div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main {
+    background-color: #FFA185;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    color: white;
+    font-size: 60px;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+main>section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+}
+
+main p {
+    font-size: 30px;
+}
+
+.imgs-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.linha {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imgs-section img {
+    width: 600px;
+}
+
+h3 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+h3:hover {
+    cursor: pointer;
+    color: white;
+    transition: 0.3s;
+}
+
+footer {
+    background-color: #129799;
+    display: flex;
+    justify-content: space-around;
+    height: 17vh;
+    align-items: center;
+    color: white;
+}
+
+footer > nav:first-of-type {
+    width: 20vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer > nav:last-of-type {
+    width: 30vw;
+}
+
+ion-icon {
+    font-size: 40px;
+}
